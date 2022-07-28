@@ -1,7 +1,7 @@
 echo Stop service
 sudo systemctl stop suid
 
-eccho Create .sui and download binary
+echo Create .sui and download binary
 mkdir $HOME/.sui
 cd $HOME/.sui
 
