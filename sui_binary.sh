@@ -27,6 +27,7 @@ genesis:
 
 
 echo Firewall
+ufw allow ssh
 ufw allow 8080
 ufw allow 9000
 ufw allow 9184
