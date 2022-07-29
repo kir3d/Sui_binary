@@ -68,8 +68,8 @@ cat ~/.sui/keys.txt
 
 echo Checking node
 . <(wget -qO- https://raw.githubusercontent.com/SecorD0/utils/main/miscellaneous/insert_variable.sh) -n sui_log -v "sudo journalctl -fn 100 -u suid" -a
-sleep 2s
+sleep 0.5
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
-echo For check log type $(tput setaf 2) sui_log$(tput setaf 9)
+echo For check log type $(tput setaf 2)sui_log$(tput setaf 9)
 
