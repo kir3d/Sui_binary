@@ -1,3 +1,7 @@
+echo Install JQ
+apt update
+apt install jq -y
+
 echo Stop service
 sudo systemctl stop suid
 
