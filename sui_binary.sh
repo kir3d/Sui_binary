@@ -19,7 +19,7 @@ json-rpc-address: \"0.0.0.0:9000\"
 
 genesis:
   # Update this to the location of where the genesis file is stored
-  genesis-file-location: \"/root/.sui/genesis.blob\""
+  genesis-file-location: \"/root/.sui/genesis.blob\"" > $HOME/.sui/fullnode.yaml
 
 
 echo Firewall
