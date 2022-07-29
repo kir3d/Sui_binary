@@ -11,7 +11,7 @@ Generate fullnode.yaml<br>
 Download binary sui, sui-node, sui-faucet from Secord0 https://github.com/SecorD0/<br>
 Open ports 8080, 9000, 9184<br>
 Make service<br>
-Make limit 1Gb for log
+Make limit 1Gb for log<br>
 Show Address for Discord<br>
 Show wallet keys<br>
 Checking node<br>
