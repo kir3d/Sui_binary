@@ -17,6 +17,6 @@ Show wallet keys<br>
 Checking node<br>
 
 
-Official MystenLab Sui repo https://github.com/MystenLabs/sui/blob/main/.gitignore
-Thanks for the inspiration SecorD0 https://github.com/SecorD0/
-Thanks @viper00727 https://t.me/viper00727 for testing!
+Official MystenLab Sui repo https://github.com/MystenLabs/sui/blob/main/.gitignore<br>
+Thanks for the inspiration SecorD0 https://github.com/SecorD0/<br>
+Thanks @viper00727 https://t.me/viper00727 for testing!<br>
