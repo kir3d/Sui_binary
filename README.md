@@ -8,7 +8,7 @@ For <b>root</b> user install Sui DevNet Fullnode binary by command:<br>
 Stop service<br>
 Download genesis.blob form official Sui github https://github.com/MystenLabs/sui <br>
 Generate fullnode.yaml<br>
-Download binary sui, sui-node, sui-faucet from Secord0 https://github.com/SecorD0/<br>
+Download binary sui, sui-node, sui-faucet<br>
 Open ports 8080, 9000, 9184, ssh and activate ufw firewall <br>
 Make service<br>
 Make limit 1Gb for log<br>
@@ -17,4 +17,6 @@ Show wallet keys<br>
 Checking node<br>
 
 
-Thanks https://t.me/viper00727 for testing!
+Official MystenLab Sui repo https://github.com/MystenLabs/sui/blob/main/.gitignore
+Thanks for the inspiration SecorD0 https://github.com/SecorD0/
+Thanks @viper00727 https://t.me/viper00727 for testing!
