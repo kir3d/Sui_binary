@@ -2,12 +2,16 @@
 
 For <b>root</b> user install Sui DevNet Fullnode binary by command.<br>
 
-Install:<br>
-. <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary.sh)<br>
-<br>
-Update:<br>
+# Update:<br>
 . <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary_update.sh)<br>
+Stop service<br>
+Download genesis.blob form official Sui github https://github.com/MystenLabs/sui <br>
+Download binary sui, sui-node, sui-faucet<br>
+Start service<br>
+Checking node<br>
 <br>
+# Install:<br>
+. <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary.sh)<br>
 Stop service<br>
 Download genesis.blob form official Sui github https://github.com/MystenLabs/sui <br>
 Generate fullnode.yaml<br>
@@ -19,7 +23,7 @@ Show Address for Discord<br>
 Show wallet keys<br>
 Checking node<br>
 
-
+# Links
 Official MystenLab Sui repo https://github.com/MystenLabs/sui/<br>
 Thanks for the inspiration SecorD0 https://github.com/SecorD0/<br>
 Thanks @viper00727 https://t.me/viper00727 for testing!<br>
