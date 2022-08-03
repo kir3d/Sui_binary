@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $(tput setaf 15)Starting
 echo Stop suid.service
 sudo systemctl stop suid
 echo Deleteting DB and Genesis
@@ -16,3 +17,4 @@ sleep 1
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
 echo For check log type $(tput setaf 2)sui_log$(tput setaf 15) 
+echo $(tput setaf 15)Done
