@@ -71,5 +71,5 @@ sleep 0.5
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
 echo -e "\033[0;0m)StartingFor check log type \033[0;32msui_log"
-echo -e "\033[0;32mDone"
+echo -e "\033[0;0mDone"
 
