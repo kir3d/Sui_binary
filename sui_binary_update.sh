@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "$(tput setaf 15)Starting"
+echo -e "\033[0;0mStarting"
 echo -e "Stop suid.service"
 sudo systemctl stop suid
 echo -e "Deleteting Sui DataBase and Genesis"
@@ -16,5 +16,5 @@ echo -e "Checking node"
 sleep 1
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
-echo -e "For check log type $(tput setaf 2)sui_log"
-echo -e "$(tput setaf 15)Done"
+echo -e "For check log type \033[0;32msui_log"
+echo -e "\033[0;0mDone"
