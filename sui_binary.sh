@@ -58,7 +58,7 @@ sudo journalctl --vacuum-size=1G > /dev/null 2>&1
 echo Address and keys
 echo "http://$(curl -s ifconfig.me):9000/" > $HOME/.sui/address.txt
 echo Copy $(tput setaf 2)$(cat address.txt) $(tput setaf 9)and paste to Discord. 
-echo Right click and Open link:$(tput setaf 2) https://discord.com/channels/916379725201563759/986662676073709568$(tput setaf 9)
+echo Right click and Open link:$(tput setaf 2) https://discord.com/channels/916379725201563759/986662676073709568 $(tput setaf 15)
 echo y | sui client > /dev/null 2>&1
 echo Backup this
 sui keytool list > $HOME/.sui/keys.txt
@@ -69,5 +69,5 @@ echo Checking node
 sleep 0.5
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
-echo For check log type $(tput setaf 2)sui_log$(tput setaf 9)
+echo For check log type $(tput setaf 2)sui_log$(tput setaf 15) 
 
