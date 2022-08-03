@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $(tput setaf 15)Starting
 if [ $(dpkg-query -W -f='${Status}' jq 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then
   echo Install JQ
@@ -69,5 +70,6 @@ echo Checking node
 sleep 0.5
 wget -qO-  -t 1 -T 5 --header 'Content-Type: application/json' --post-data '{ "jsonrpc":"2.0", "id":1, "method":"sui_getRecentTransactions", "params":[5] }' "http://127.0.0.1:9000/" | jq
 cd
-echo For check log type $(tput setaf 2)sui_log$(tput setaf 15) 
+echo echo $(tput setaf 15)StartingFor check log type $(tput setaf 2)sui_log$(tput setaf 15)
+echo echo $(tput setaf 15)Done
 
