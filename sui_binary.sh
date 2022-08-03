@@ -57,7 +57,7 @@ sudo journalctl --vacuum-size=1G > /dev/null 2>&1
 
 echo Address and keys
 echo "http://$(curl -s ifconfig.me):9000/" > $HOME/.sui/address.txt
-echo Copy $(tput setaf 2)$(cat address.txt) $(tput setaf 9)and paste to Discord. 
+echo Copy $(tput setaf 2)$(cat address.txt) $(tput setaf 15)and paste to Discord. 
 echo Right click and Open link:$(tput setaf 2) https://discord.com/channels/916379725201563759/986662676073709568 $(tput setaf 15)
 echo y | sui client > /dev/null 2>&1
 echo Backup this
