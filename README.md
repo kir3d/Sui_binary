@@ -1,9 +1,12 @@
 # Sui_binary
 
-For <b>root</b> user install Sui DevNet Fullnode binary by command:<br>
+For <b>root</b> user install Sui DevNet Fullnode binary by command.<br>
 
-. <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary.sh)
+Install:<br>
+. <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary.sh)<br>
 <br>
+Update:<br>
+. <(wget -qO- https://raw.githubusercontent.com/kir3d/Sui_binary/main/sui_binary_update.sh)<br>
 <br>
 Stop service<br>
 Download genesis.blob form official Sui github https://github.com/MystenLabs/sui <br>
