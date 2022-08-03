@@ -61,7 +61,7 @@ echo "http://$(curl -s ifconfig.me):9000/" > $HOME/.sui/address.txt
 echo -e "Copy \033[0;32m$(cat address.txt) \033[0;0mand paste to Discord. 
 echo Right click and Open link:$(tput setaf 2) https://discord.com/channels/916379725201563759/986662676073709568"
 echo y | sui client > /dev/null 2>&1
-echo -e "\033[0;32mBackup this"
+echo -e "\033[0;0mPlease, backup .sui/sui-onfig"
 sui keytool list > $HOME/.sui/keys.txt
 cat ~/.sui/keys.txt
 
