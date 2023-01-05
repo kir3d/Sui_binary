@@ -1,5 +1,6 @@
 # Sui_binary
 
+05-Jan-2023: Starting from version v0.20.0 MystenLab started uploading binaries to their releases
 For <b>root</b> user install Sui DevNet Fullnode binary by command.<br>
 
 # Update:<br>
