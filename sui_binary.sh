@@ -21,6 +21,8 @@ cd $HOME/.sui
 echo -e "Dowloading binary"
 for i in $( wget -qO-  https://api.github.com/repos/MystenLabs/sui/releases/latest | grep browser_download_url | awk '{print $2}' | sed 's/"//g'); do wget $i; done; 
 for i in *; do chmod +x $i; mv $i /usr/local/bin//$i; done
+
+echo -e "Downloadding Genesis"
 wget -qO $HOME/.sui/genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
 
 
